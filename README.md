@@ -165,3 +165,9 @@ Everything under `scripts/`, plus `contracts/repository-naming.yaml` and
 `contracts/shape-pin.yaml`. Edit them upstream, not here — a local edit is
 reported as drift. `AGENTS.md` and `CLAUDE.md` have no row and are this
 project's own.
+
+## openSig signing platform
+
+**openAutograph** captures human review, consent and visible signatures; **openCryptograph** protects and verifies completed PDF revisions. Optional blockchain anchoring creates separate proof receipts. All original work in all three repositories is Apache-2.0; third-party shipped materials must meet the MIT/Apache allowlist.
+
+Start with the [architecture overview](spec/ideation/brainstorm/opensig-overview.md) and [implementation plan](spec/ideation/brainstorm/opensig-implementation-plan.md). The current delivery is a documented project scaffold. No signing runtime, production adapter or ledger transaction has been implemented.
